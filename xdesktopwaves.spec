@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Graphical desktop/Other
 Url: http://xdesktopwaves.sourceforge.net/
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libx11-devel
 
 %description
