@@ -1,6 +1,6 @@
 %define name xdesktopwaves
 %define version 1.3
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Create water effect on your X background
 Name: %{name}
