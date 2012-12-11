@@ -43,3 +43,38 @@ rm -rf $RPM_BUILD_ROOT
 %_mandir/man1/%{name}*
 
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.3-4mdv2010.0
++ Revision: 435074
+- rebuild
+
+* Tue Jun 17 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.3-3mdv2009.0
++ Revision: 222249
+- BuildRequires libxext-devel
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Wed Jul 26 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 07/26/06 20:17:43 (42246)
+- rebuild
+- update buildrequires
+
+* Wed Jul 26 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 07/26/06 20:08:52 (42240)
+Import xdesktopwaves
+
+* Fri Mar 04 2005 Lenny Cartier <lenny@mandrakesoft.com> 1.3-1mdk
+- 1.3
+
+* Tue Dec 07 2004 Lenny Cartier <lenny@mandrakesoft.com> 1.2-1mdk
+- 1.2
+
+* Sat Nov 20 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 1.0-1mdk
+- First mdk spec
+
