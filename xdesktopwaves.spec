@@ -11,7 +11,7 @@ License: GPL
 Group: Graphical desktop/Other
 Url: http://xdesktopwaves.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
-BuildRequires: libx11-devel libxext-devel
+BuildRequires: pkgconfig(x11) libxext-devel
 
 %description
 Xdesktopwaves is a cellular automata setting the background of your X Windows
