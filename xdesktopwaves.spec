@@ -1,6 +1,6 @@
 %define name xdesktopwaves
 %define version 1.3
-%define release %mkrel 4
+%define release  5
 
 Summary: Create water effect on your X background
 Name: %{name}
@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Graphical desktop/Other
 Url: http://xdesktopwaves.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: pkgconfig(x11) libxext-devel
 
 %description
