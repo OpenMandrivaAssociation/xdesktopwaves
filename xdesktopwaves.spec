@@ -8,7 +8,8 @@ Source0: https://sourceforge.net/projects/xdesktopwaves/files/xdesktopwaves/xdes
 License: GPL
 Group: Graphical desktop/Other
 Url: http://xdesktopwaves.sourceforge.net/
-BuildRequires: pkgconfig(x11) libxext-devel
+BuildRequires: pkgconfig(x11)
+BuildRequires: pkgconfig(xext)
 
 %description
 Xdesktopwaves is a cellular automata setting the background of your X Windows
