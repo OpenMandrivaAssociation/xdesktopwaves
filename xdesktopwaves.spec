@@ -7,7 +7,7 @@ Release: 1
 Source0: https://sourceforge.net/projects/xdesktopwaves/files/xdesktopwaves/xdesktopwaves-%{version}.tar.gz
 License: GPL
 Group: Graphical desktop/Other
-Url: http://xdesktopwaves.sourceforge.net/
+Url: https://xdesktopwaves.sourceforge.net/
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xext)
 
