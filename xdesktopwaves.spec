@@ -8,6 +8,7 @@ Source0: https://sourceforge.net/projects/xdesktopwaves/files/xdesktopwaves/xdes
 License: GPL
 Group: Graphical desktop/Other
 Url: https://xdesktopwaves.sourceforge.net/
+BuildRequires:	make
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xext)
 
